@@ -30,7 +30,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             github.projects.createCard({
-              column_id: 139671070,   # ← 自分のプロジェクト列IDに置き換える
+              column_id: 139672216,   # ← 自分のプロジェクト列IDに置き換える
               content_id: context.payload.issue.id,
               content_type: "Issue"
             });
